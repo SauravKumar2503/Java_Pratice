@@ -6,6 +6,8 @@ public class odd_even{
         System.out.println("Enter a number: ");
         int num = sc.nextInt();
 
+        sc.close();
+
         if(num == 0){
             System.out.println("Enter number greater than 0");
         }else if(num < 0){
