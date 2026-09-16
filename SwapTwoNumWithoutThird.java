@@ -11,5 +11,6 @@ public class SwapTwoNumWithoutThird {
         b = a-b;
         a = a-b;
         System.out.println("After swapping: a = " + a + ", b = " + b);
+        sc.close();
     }
 }

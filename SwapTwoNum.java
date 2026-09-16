@@ -10,5 +10,6 @@ public class SwapTwoNum {
         a = b;
         b = temp;
         System.out.println("After swapping: a = " + a + ", b = " + b);
+        sc.close();
     }
 }
