@@ -25,7 +25,6 @@ public class SearchEle {
                 System.out.println("Element not found in the array");
             }
         }
-        
         sc.close();
     }
 }
